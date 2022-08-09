@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Challenge: Wrap twitter text box in a div and give a shadow -->
+    <title>green and yellow divs</title>
+    <style>
+      .box{
+        background-color: white;
+        display: inline-block;
+        margin: 10px 10px;
+        padding: 10px 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.573);
+      }
+      .profile-pic{
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 35px;
+        vertical-align: middle;
+        object-fit: cover;
+        object-position: center;
+      }
+      .tweet-box{
+        font-size: 16px;
+        width: 300px;
+        border: none;
+        border-style: none;
+      }
+      .tweet-box:active{
+        border: none;
+        border-style: none;
+      }
+      .tweet-box::placeholder{
+        color: rgb(34, 34, 34);
+      }
+      .tweet-btn{
+        background-color: rgb(29, 116, 215);
+        color: white;
+        padding: 8px 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img class="profile-pic" src="images/peter.jpg">
+      <input type="text" class="tweet-box" placeholder="What's happening?">
+      <button class="tweet-btn">Tweet</button>
+    </div>
+  </body>
+</html>
