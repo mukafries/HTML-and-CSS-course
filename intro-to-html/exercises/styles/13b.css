@@ -1,0 +1,98 @@
+body{
+  background-color:rgb(143, 199, 255);
+}
+.container{
+  width: 500px;
+  margin: 10px auto;
+  padding: 5px 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.493);
+}
+.tweet{
+  display: flex;
+  margin: 20px 10px;
+  /* background-color: aqua; */
+}
+
+.img-container{
+  width: 1;
+  /* background-color: lightblue; */
+  display: flex;
+  align-items:flex-start;
+}
+
+.profile-pic{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.tweet-details-container{
+  flex: 1;
+  margin-left: 15px;
+  /* background-color: lightgreen; */
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: Arial;
+  font-size: 16px;
+  color: black;
+}
+
+.user{
+  font-weight: bold;
+}
+.user .username{
+  color: rgb(79, 79, 79);
+  font-weight: normal;
+}
+
+.tweet-content{
+  font-size: 18px;
+}
+
+.tweet-image-container{
+  width: 95%;
+  border-radius: 10px;
+  /* background-color: lightpink; */
+}
+.tweet-image{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  text-align:center;
+}
+
+.attached-link-preview{
+  width: 90%;
+  display: flex;
+  /* border-radius: 20px; */
+}
+
+.link-left-section{
+  flex: 0.3;
+  background-color: rgb(216, 216, 216);
+  border: none;
+  border-radius: 10px 0 0 10px;
+}
+
+.link-right-section{
+  flex: 1;
+  background-color: none;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(216, 216, 216);
+  padding: 15px 15px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.link{
+  font-size: 18px;
+}

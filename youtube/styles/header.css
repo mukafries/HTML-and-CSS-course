@@ -1,0 +1,118 @@
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.middle-section{
+  /* Xteristics as a div in a flexbox */
+  /* background-color: lightgreen; */
+  /* min-width:500px; */
+  flex: 1;
+  max-width: 500px;
+  margin-left: 45px;
+  margin-right: 30px;
+
+  /* Xteristics of this div as a flexbox */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search-bar{
+  flex: 1;
+  background-color: none;
+  height: 35px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-color: rgb(192, 192, 192);
+  border-style: solid;
+  border-radius: 2px;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.15);
+
+  /* Resets the width to become as small as possible when shrinking */
+  width: 0;
+}
+.search-bar::placeholder{
+  font-size: 16px;
+}
+
+.search-bar:active{
+  border: none;
+  border-color: rgb(255, 98, 0);
+  box-shadow: none;
+}
+
+.search-button{
+  height: 39px;
+  width: 60px;
+  margin-left: -1px;
+  margin-right: 10px;
+
+
+  border-width: 1px;
+  background-color: rgb(245, 245, 245);
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  /* box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.15); */
+
+}
+
+.search-icon{
+  width: 25px;
+}
+
+.voice-search-button{
+ height: 41px;
+ width: 40px; 
+ border: none;
+ background-color: rgb(248, 248, 248);
+ border-radius: 50%;
+}
+
+.voice-search-icon{
+  width: 25px;
+}
+
+
+
+
+.left-section{
+  /* background-color: rgb(210, 121, 121); */
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu-icon{
+  height: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.youtube-logo{
+  height: 20px;
+}
+
+
+.right-section{
+  width: 200px;
+  min-width: 200px;
+  /* background-color: aqua; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* prevents the rigght section from shrinking in size */
+  flex-shrink: 1;
+}
+
+.right-section img{
+  height: 45%;
+  /* width: 20%; */
+}
+
+.right-section .current-user-picture{
+  height: 70%;
+  margin-right: 20px;
+  border-radius: 16px;
+}

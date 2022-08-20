@@ -1,0 +1,21 @@
+.retweet{
+  display: block;
+  margin: 20px 10px;
+  /* background-color: aqua; */
+}
+.retweet-img-container{
+  width: 1;
+  margin-bottom: 5px;
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: start;
+  column-gap: 5px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.retweet-img-container-profile-pic{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

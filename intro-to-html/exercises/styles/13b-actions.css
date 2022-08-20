@@ -1,0 +1,9 @@
+.actions{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-value{
+  font-size: 15px;
+}

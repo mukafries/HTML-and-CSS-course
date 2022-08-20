@@ -1,0 +1,94 @@
+.suggesions-section{
+  width:50%;
+  max-width: 600px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  /* background-color: gray; */
+  margin: auto;
+  padding: 10px 10px;
+
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.friend{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  column-gap: 10px;
+  /* align-items: center; */
+}
+
+.left-section{
+  width: 60px;
+  /* background-color: lightblue; */
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic{
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+
+.middle-section{
+  flex: 1;
+  /* background-color: brown; */
+  /* height: 100px; */
+
+  /* To allow for vertically centering an the div inside this section */
+  display: flex;
+  align-items: center;
+}
+p{
+  margin: 0;
+  font-family: Arial;
+  display: block;
+}
+
+.name{
+  margin-bottom: 5px;
+
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.short-desc{
+  margin-bottom: 5px;
+
+  color: gray;
+
+  font-weight: medium;
+  font-size: 14px;
+}
+.popularity{
+  font-size: 12px;
+  color: gray;
+}
+
+
+.right-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  /* background-color: lightcyan; */
+}
+.follow-btn{
+  width: 100%;
+
+  color: white;
+  background-color: rgb(38, 76, 211);
+  border: none;
+  border-radius: 8px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 5px;
+}
